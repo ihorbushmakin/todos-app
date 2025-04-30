@@ -1,0 +1,30 @@
+{% extends 'tasks/base.html' %}
+
+{% block title %}Todos{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2 class="text-center">Welcome to your Todos!</h2>
+
+    {% if user.is_authenticated %}
+        <p class="text-center">Hi, <strong>{{ user.username }}</strong>!</p>
+        <div class="card mt-4">
+            <div class="card-header">
+                <h3 class="card-title">Your Todos:</h3>
+            </div>
+            <div class="card-body">
+                <ul class="list-group">
+                    <li class="list-group-item">Amount: <span class="badge bg-primary">{{ total_tasks }}</span></li>
+                    <li class="list-group-item">Active: <span class="badge bg-warning">{{ active_tasks }}</span></li>
+                    <li class="list-group-item">Completed: <span class="badge bg-success">{{ completed_tasks }}</span></li>
+                </ul>
+            </div>
+            <div class="card-footer text-center">
+                <a href="{% url 'task-list' %}" class="btn btn-primary">Go to my todos</a>
+            </div>
+        </div>
+    {% else %}
+        <p class="text-center">Please, <a href="{% url 'login' %}">log in</a> or <a href="{% url 'signup' %}">sign up</a> to continue.</p>
+    {% endif %}
+</div>
+{% endblock %}
