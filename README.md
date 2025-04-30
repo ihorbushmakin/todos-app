@@ -18,6 +18,11 @@ A simple, clean task manager built with Django and Bootstrap.
 - Python 3.x  
 - Bootstrap 5  
 
+## Contributing
+
+```markdown
+I’m open to contributions for fixes or feature ideas – feel free to fork and open a pull request
+
 ## Setup
 
 ```bash
@@ -28,9 +33,3 @@ source .venv/bin/activate  # oder .venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
-
-
-```markdown
-## Contributing
-
-I’m open to contributions for fixes or feature ideas – feel free to fork and open a pull request

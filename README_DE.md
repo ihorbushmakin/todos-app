@@ -18,6 +18,11 @@ Ein einfacher, übersichtlicher Aufgabenmanager mit Django und Bootstrap erstell
 - Python 3.x  
 - Bootstrap 5  
 
+## Beiträge
+
+```markdown
+Ich bin offen für Beiträge zur Fehlerbehebung oder neuen Ideen – gerne forken und einen Pull-Request stellen
+
 ## Einrichtung
 
 ```bash
@@ -28,9 +33,3 @@ source .venv/bin/activate  # oder .venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
-
-
-```markdown
-## Beiträge
-
-Ich bin offen für Beiträge zur Fehlerbehebung oder neuen Ideen – gerne forken und einen Pull-Request stellen
