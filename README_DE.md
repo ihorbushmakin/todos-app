@@ -20,7 +20,6 @@ Ein einfacher, übersichtlicher Aufgabenmanager mit Django und Bootstrap erstell
 
 ## Beiträge
 
-```markdown
 Ich bin offen für Beiträge zur Fehlerbehebung oder neuen Ideen – gerne forken und einen Pull-Request stellen
 
 ## Einrichtung

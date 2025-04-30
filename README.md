@@ -20,7 +20,6 @@ A simple, clean task manager built with Django and Bootstrap.
 
 ## Contributing
 
-```markdown
 I’m open to contributions for fixes or feature ideas – feel free to fork and open a pull request
 
 ## Setup
